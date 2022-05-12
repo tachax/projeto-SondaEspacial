@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sonda Espacial de Marcação</title>
+</head>
+<body>
+    <h1>Sonda Espacial de Marcação</h1>
+    <h3>Mapeie áreas planas em superfícies do planeta Marte</h3>
+    <h5>OBS: 0- plano; b- buraco; e- elevação</h5>
+    
+    <div class="pouso">
+        <h4>Qual coordenada você deseja mapear?</h4>
+        <div>
+            <label for="x">Digite o y da coordenada</label>
+            <input type="number" id="x">
+        </div>
+        <div>
+            <label for="y">Digite o x da coordenada</label>
+            <input type="number" id="y">
+        </div>
+        <button onclick="pousar()">Enter</button>
+        <p id="mapaTela"></p>
+    </div>
+
+</body>
+</html>
